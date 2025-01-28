@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Javascript can change the attribute HTML </h1>
+    <p id="demo">In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <button type="button" onclick="document.getElementById('myImg').src='./images/Screenshot.png'">Change to red</button>
+
+    <img id="myImg" src="./images/logo.png" alt="">
+
+    <button type="button" onclick="document.getElementById('myImg').src='./images/logo.png'">Change to blue</button>
+
+    <!-- It can able to chnage the style of the HTML element -->
+
+     <button type="button" onclick="document.getElementById('demo').style.fontSize='25px'">Change Style</button>
+    
+</body>
+</html>
