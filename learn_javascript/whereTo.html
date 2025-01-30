@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <!-- Javascript in the head section of an HTML document -->
+
+   <script>
+     function myFunction() {
+        document.getElementById("change").innerHTML = "Done by JavaScript!";
+    }
+   </script>
+
 </head>
 <body>
     <p id="demo"></p>
     
     <!-- Javascript code inserted between the script tags will change the content of the paragraph with id="demo" to "Hello World!". -->
-    <script>
+    <!-- <script>
         document.getElementById("demo").innerHTML = "Hello World!";
-    </script>
+    </script> -->
 
-    
+   <h1>It is javascript</h1>
+    <p id="change">This is a paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Change</button>
+
 </body>
 </html>
