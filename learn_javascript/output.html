@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Output</title>
+</head>
+<body>
+    <!-- We have 4 output methods in JavaScript: -->
+    <!-- 1. Writing into an HTML element, using innerHTML. -->
+    <!-- 2. Writing into the HTML output using document.write(). -->
+    <!-- 3. Writing into an alert box, using window.alert(). -->
+    <!-- 4. Writing into the browser console, using console.log(). -->
+
+    <!-- 1. Writing into an HTML element, using innerHTML. -->
+
+    <h1>Writing into an HTML element, using innerHTML.</h1>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello World!";
+    </script>
+
+    <!-- 2. Writing into the HTML output using document.write(). -->
+
+    <h1>Writing into the HTML output using document.write().</h1>
+    <script>
+        document.write(5 + 6);
+    </script>
+    <br>
+    
+    <!-- or -->
+
+    <button type="button" onclick="document.write(5+8)">Try it!</button>
+
+    <!-- 3. Writing into an alert box, using window.alert(). -->
+
+    <h1>Writing into the HTML output using window.alert().</h1>
+    <script>
+       
+       window.alert("Hello World!");
+    </script>
+
+    <!-- 4. Writing into the browser console, using console.log(). -->
+
+    <h1>Writing into the browser console, using console.log().</h1>
+    <script>
+        console.log("Hello World!");   // you can see the output in the browser console.
+    </script>
+</body>
+</html>
