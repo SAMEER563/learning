@@ -215,19 +215,19 @@ let v = 5;
 let w = 10;
 console.log(v ^ w) //15
 
-// <<	Left shift
+// <<	Left shift      ( Its multiply by 2)
 
-let x = 5;
-let y = 1;
-console.log(x << y) //10
+let x = 5 << 1;     // 5*2 = 10
 
-// >>	Right shift
+console.log(x) //10     
 
-let z = 5;
-let aa = 1;
-console.log(z >> aa) //2
+// >>	Right shift     ( Its divide by 2)
+
+let z = 6 >> 1;      // 6/2 = 3
+console.log(z ) //3
 
 // >>>	Zero fill right shift
+
 
 let ab = 5;
 let ac = 1;
@@ -235,3 +235,8 @@ console.log(ab >>> ac) //2
 
 
 
+let a = '1.2';
+let b = 1.2;
+
+console.log(a === b); // true
+console.log(a == b); // true
