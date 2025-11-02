@@ -32,13 +32,22 @@ console.log("Hello, World!");
 // Swapping values without using third variable
 
 
-let a = 5;
-let b = 10;
+// let a = 5;
+// let b = 10;
 
-a= a +b;
-b= a -b;
-a= a-b;
+// a= a +b;
+// b= a -b;
+// a= a-b;
 
+// console.log("a:", a);
+// console.log("b:", b);
+
+
+// Swapping values using destructuring assignment
+
+let a= 5;
+let  b= 10;
+
+[a,b] = [b,a];
 console.log("a:", a);
 console.log("b:", b);
-
