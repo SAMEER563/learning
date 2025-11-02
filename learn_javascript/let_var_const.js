@@ -45,9 +45,15 @@ console.log("Hello, World!");
 
 // Swapping values using destructuring assignment
 
-let a= 5;
-let  b= 10;
+// let a= 5;
+// let  b= 10;
 
-[a,b] = [b,a];
-console.log("a:", a);
-console.log("b:", b);
+// [a,b] = [b,a];
+// console.log("a:", a);
+// console.log("b:", b);
+
+
+// Take value from user input
+
+let name = prompt("Enter your name ")
+console.log( name);
