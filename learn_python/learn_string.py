@@ -32,4 +32,4 @@ print("He is also looking for job at position of back end developer.")
 # Example:
 
 a = "Hello, World!"
-print(a[7])
+print(a[5])
