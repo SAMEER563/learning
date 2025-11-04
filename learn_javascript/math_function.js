@@ -32,6 +32,17 @@ console.log(Math.min(5, 10, 2, 8))
 // Math.max() - Returns the largest of zero or more numbers
 console.log(Math.max(5, 10, 2, 8))
 
+// Math.random() - Returns a random number between 0 (inclusive) and 1 (exclusive)
+
+console.log(Math.random())
+
+// Generate random number between 1 to 100
+
+console.log(Math.floor(1 + Math.random() * 100));
+
+// Math.cbrt() - Returns the cube root of a number
+console.log(Math.cbrt(27))
+
 
 // Generate otp between 1000 to 9999
 
