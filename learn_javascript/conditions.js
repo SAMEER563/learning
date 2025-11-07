@@ -48,3 +48,18 @@ switch(number) {
     default : console.log("Invalid number");
 }
 
+// Another example of switch
+
+let fruit = "Mango";
+switch(fruit) {
+    case "Apple" :
+    break;
+    case "Banana" : 
+    break;
+    case "Mango" : 
+    break;
+    case "Orange" : console.log("Orange is rich in vitamin C");
+    break;
+    default : console.log("Eat fruits daily to stay healthy");
+}
+
