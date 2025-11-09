@@ -61,10 +61,10 @@ console.log("Hello, World!");
 
 //What will be the output of the following code?
 
-console.log(a);  // Output: undefined
-var a = 10;
-console.log(b); // Output: ReferenceError: Cannot access 'b' before initialization
-let b = 20;
+// console.log(a);  // Output: undefined
+// var a = 10;
+// console.log(b); // Output: ReferenceError: Cannot access 'b' before initialization
+// let b = 20;
 
 
 // What will be the output of the following code?
@@ -99,3 +99,20 @@ console.log(z);
 // 10
 // ReferenceError: y is not defined
 // ReferenceError: z is not defined
+
+
+// What will be the output of the following code?
+
+console.log(a);
+var a = 5;
+
+console.log(b);
+let b = 10;
+
+b = 15;
+console.log(b);
+
+// Output:
+// undefined
+// ReferenceError: Cannot access 'b' before initialization
+// 15
