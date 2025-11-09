@@ -81,3 +81,21 @@ for (let j = 0; j < 3; j++) {
 }
 
 // Output: 0 1 2
+
+
+// What will be the output of the following code?
+
+if (true) {
+  var x = 10;
+  let y = 20;
+  const z = 30;
+}
+
+console.log(x);
+console.log(y);
+console.log(z);
+
+// Output:
+// 10
+// ReferenceError: y is not defined
+// ReferenceError: z is not defined
