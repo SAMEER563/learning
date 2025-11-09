@@ -67,5 +67,10 @@ console.log(b); // Output: ReferenceError: Cannot access 'b' before initializati
 let b = 20;
 
 
+// What will be the output of the following code?
 
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1000);
+} 
+// Output: 3 3 3
 
