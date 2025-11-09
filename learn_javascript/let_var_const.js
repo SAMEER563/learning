@@ -55,5 +55,17 @@ console.log("Hello, World!");
 
 // Take value from user input
 
-let name = prompt("Enter your name ")
-console.log( name);
+// let name = prompt("Enter your name ")
+// console.log( name);
+
+
+//What will be the output of the following code?
+
+console.log(a);  // Output: undefined
+var a = 10;
+console.log(b); // Output: ReferenceError: Cannot access 'b' before initialization
+let b = 20;
+
+
+
+
