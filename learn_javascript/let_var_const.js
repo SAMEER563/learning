@@ -74,3 +74,10 @@ for (var i = 0; i < 3; i++) {
 } 
 // Output: 3 3 3
 
+// What will be the output of the following code?
+
+for (let j = 0; j < 3; j++) {
+  setTimeout(() => console.log(j), 1000);
+}
+
+// Output: 0 1 2
