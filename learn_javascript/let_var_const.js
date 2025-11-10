@@ -156,3 +156,20 @@ let a = 10;
 }
 console.log(a);  // Output: 10
 
+
+// What will be the output of the following code?
+
+function test() {
+  if (true) {
+    var a = 10;
+    let b = 20;
+    const c = 30;
+  }
+  console.log(typeof a); // Output: number
+  console.log(typeof b); // Output: undefined
+  console.log(typeof c); // Output: undefined
+}
+test();
+
+
+
