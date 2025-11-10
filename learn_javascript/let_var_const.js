@@ -116,3 +116,19 @@ console.log(b);
 // undefined
 // ReferenceError: Cannot access 'b' before initialization
 // 15
+
+
+// What will be the output of the following code?
+
+var x = 1;
+let y = 2;
+
+{
+  var x = 10;
+  let y = 20;
+  console.log(x, y);  // Output: 10 20
+}
+
+console.log(x, y);  // Output: 10 2
+
+
