@@ -172,4 +172,15 @@ function test() {
 test();
 
 
+// What will be the output of the following code?
+
+function tricky() {
+  console.log(a);  // Output: undefined
+  console.log(b);  // Output: ReferenceError: b is not defined
+  var a = b = 10;
+}
+tricky();
+
+console.log(typeof a);  // Output: undefined
+console.log(typeof b);  // Output: number
 
