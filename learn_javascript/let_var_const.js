@@ -132,3 +132,15 @@ let y = 2;
 console.log(x, y);  // Output: 10 2
 
 
+// What will be the output of the following code?
+
+function demo() {
+  console.log(a);  // Output: undefined
+  console.log(b);  // Output: ReferenceError: Cannot access 'b' before initialization
+  var a = 10;
+  let b = 20;
+}
+demo();
+
+
+
