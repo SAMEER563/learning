@@ -143,4 +143,16 @@ function demo() {
 demo();
 
 
+// What will be the output of the following code?
+
+let a = 10;
+{
+  let a = 20;
+  {
+    let a = 30;
+    console.log(a);  // Output: 30
+  }
+  console.log(a);  // Output: 20
+}
+console.log(a);  // Output: 10
 
