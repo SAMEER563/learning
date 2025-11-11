@@ -184,3 +184,10 @@ tricky();
 console.log(typeof a);  // Output: undefined
 console.log(typeof b);  // Output: number
 
+// What will be the output of the following code?
+
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i));
+}
+
+// Output: 3 3 3
