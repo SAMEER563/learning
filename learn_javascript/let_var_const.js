@@ -186,8 +186,15 @@ console.log(typeof b);  // Output: number
 
 // What will be the output of the following code?
 
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i));
+function outer() {
+  var x = 10;
+  if (true) {
+    let x = 20;
+    const y = 30;
+    console.log(x, y); // Output: 20 30
+  }
+  console.log(x, y); // Output: 10 ReferenceError: y is not defined
 }
+outer();
 
-// Output: 3 3 3
+
