@@ -197,4 +197,13 @@ function outer() {
 }
 outer();
 
+// What will be the output of the following code?
+
+var a = 10;
+(function() {
+  console.log(a); // Output: 10
+  var a = 20;
+  console.log(a); // Output: 20
+})(); 
+
 
