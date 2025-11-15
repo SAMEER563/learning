@@ -32,3 +32,14 @@ const divide = function (a, b) {
 console.log(divide(10, 2)); // Output: 5
 
 
+// arrow function
+
+const subtract = (a, b) => {
+    return a - b;
+};
+console.log(subtract(10, 5)); // Output: 5
+
+// arrow function with implicit return
+
+const square = a => a * a;
+console.log(square(5)); // Output: 25
