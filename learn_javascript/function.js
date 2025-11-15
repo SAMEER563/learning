@@ -1,4 +1,14 @@
-function addNumbers(num1, num2) {
-    return num1 + num2;
+// function without parameters
+
+function sum () {
+    console.log("Hi there!");
 }
-console.log(addNumbers(5, 10)); // Output: 15
+sum(); // Output: Hi there!
+
+
+// function with parameters
+
+function add (a, b) {
+    console.log(a + b);
+}
+add(5, 10); // Output: 15
