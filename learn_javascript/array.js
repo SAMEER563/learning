@@ -62,11 +62,28 @@
 
 // Reverse an array with extra array
 
-let arr = [1, 2, 3, 4, 5];
-let revArr = new Array(arr.length);
-let j = 0;
-for (let i = arr.length - 1; i >= 0; i--) {
-    revArr[j] = arr[i];
-    j++;
-}
-console.log("Reversed array:", revArr); // Output: Reversed array: [5, 4, 3, 2, 1]
+// let arr = [1, 2, 3, 4, 5];
+// let revArr = new Array(arr.length);
+// let j = 0;
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     revArr[j] = arr[i];
+//     j++;
+// }
+// console.log("Reversed array:", revArr); // Output: Reversed array: [5, 4, 3, 2, 1]
+
+
+// Reverse an array without extra array
+
+let arr = [1, 2, 3, 4, 9];
+let i = 0;
+let j = arr.length - 1;
+
+while (i < j) {
+    // Swap arr[i] and arr[j]
+    let temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+    i++;
+    j--;
+}     
+console.log("Reversed array:", arr); // Output: Reversed array: [5, 4, 3, 2, 1]
