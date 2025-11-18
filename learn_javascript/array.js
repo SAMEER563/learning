@@ -19,26 +19,26 @@
 
 // Find max number from array
 
-let arr = [10, 5, 8, 20, 3];
-let max = arr[0];
-for (let i= 0; i<arr.length; i++) {
-    if (max < arr[i]) {
-        max = arr[i];
-    }
-}
-console.log("Maximum number in the array:", max); // Output: Maximum number in the array: 20
+// let arr = [10, 5, 8, 20, 3];
+// let max = arr[0];
+// for (let i= 0; i<arr.length; i++) {
+//     if (max < arr[i]) {
+//         max = arr[i];
+//     }
+// }
+// console.log("Maximum number in the array:", max); // Output: Maximum number in the array: 20
 
 
 // Find min number from given array
 
-// let arr = [10, 5, 8, 20, 3];
-// let min = arr[0];
-// for (let i = 0; i <arr.length; i++) {
-//     if (arr[i] < min) {
-//         min = arr[i];
-//     }
-// }
-// console.log("Minimum number in the array:", min); // Output: Minimum number in the array: 3
+let arr = [10, 5, 8, 20, 3];
+let min = arr[0];
+for (let i = 0; i <arr.length; i++) {
+    if (arr[i] < min) {
+        min = arr[i];
+    }
+}
+console.log("Minimum number in the array:", min); // Output: Minimum number in the array: 3
 
 
 
