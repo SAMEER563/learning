@@ -31,14 +31,31 @@
 
 // Find min number from given array
 
-let arr = [10, 5, 8, 20, 3];
-let min = arr[0];
-for (let i = 0; i <arr.length; i++) {
-    if (arr[i] < min) {
-        min = arr[i];
-    }
+// let arr = [10, 5, 8, 20, 3];
+// let min = arr[0];
+// for (let i = 0; i <arr.length; i++) {
+//     if (arr[i] < min) {
+//         min = arr[i];
+//     }
+// }
+// console.log("Minimum number in the array:", min); // Output: Minimum number in the array: 3
+
+
+
+// Find the second max number from given array
+
+let arr = [10, 20, 5, 8, 20, 3];
+
+let max = Math.max(arr[0], arr[1]);
+let sMax = Math.min(arr[0], arr[1]);
+
+for(let i = 2; i<arr.length; i++) {
+    if(arr[i] > max) {
+        sMax = max;
+        max = arr[i];
+    } else if(arr[i] > sMax && arr[i] != max) {
+        sMax = arr[i];
+    }   
 }
-console.log("Minimum number in the array:", min); // Output: Minimum number in the array: 3
 
-
-
+console.log("Second maximum number in the array:", sMax); // Output: Second maximum number in the array: 10
