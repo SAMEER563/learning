@@ -44,18 +44,29 @@
 
 // Find the second max number from given array
 
-let arr = [10, 20, 5, 8, 20, 3];
+// let arr = [10, 20, 5, 8, 20, 3];
+// let max = Math.max(arr[0], arr[1]);
+// let sMax = Math.min(arr[0], arr[1]);
 
-let max = Math.max(arr[0], arr[1]);
-let sMax = Math.min(arr[0], arr[1]);
+// for(let i = 2; i<arr.length; i++) {
+//     if(arr[i] > max) {
+//         sMax = max;
+//         max = arr[i];
+//     } else if(arr[i] > sMax && arr[i] != max) {
+//         sMax = arr[i];
+//     }   
+// }
 
-for(let i = 2; i<arr.length; i++) {
-    if(arr[i] > max) {
-        sMax = max;
-        max = arr[i];
-    } else if(arr[i] > sMax && arr[i] != max) {
-        sMax = arr[i];
-    }   
+// console.log("Second maximum number in the array:", sMax); // Output: Second maximum number in the array: 10
+
+
+// Reverse an array with extra array
+
+let arr = [1, 2, 3, 4, 5];
+let revArr = new Array(arr.length);
+let j = 0;
+for (let i = arr.length - 1; i >= 0; i--) {
+    revArr[j] = arr[i];
+    j++;
 }
-
-console.log("Second maximum number in the array:", sMax); // Output: Second maximum number in the array: 10
+console.log("Reversed array:", revArr); // Output: Reversed array: [5, 4, 3, 2, 1]
