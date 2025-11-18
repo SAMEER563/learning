@@ -74,16 +74,34 @@
 
 // Reverse an array without extra array
 
-let arr = [1, 2, 3, 4, 9];
-let i = 0;
-let j = arr.length - 1;
+// let arr = [1, 2, 3, 4, 9];
+// let i = 0;
+// let j = arr.length - 1;
 
-while (i < j) {
-    // Swap arr[i] and arr[j]
-    let temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
+// while (i < j) {
+//     // Swap arr[i] and arr[j]
+//     let temp = arr[i];
+//     arr[i] = arr[j];
+//     arr[j] = temp;
+//     i++;
+//     j--;
+// }     
+// console.log("Reversed array:", arr); // Output: Reversed array: [5, 4, 3, 2, 1]
+
+
+// Sort 0s and 1s in an array
+
+let arr = [0, 1, 1, 0, 1, 0, 0, 1];
+let i = 0;
+let j =0;
+while (i < arr.length) {
+    if (arr[i] == 0) {
+        // Swap arr[i] and arr[j]
+        let temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        j++;
+    }
     i++;
-    j--;
-}     
-console.log("Reversed array:", arr); // Output: Reversed array: [5, 4, 3, 2, 1]
+}
+console.log("Sorted array of 0s and 1s:", arr); // Output: Sorted array of 0s and 1s: [0, 0, 0, 0, 1, 1, 1, 1]
