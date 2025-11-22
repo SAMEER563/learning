@@ -104,4 +104,4 @@ while (i < arr.length) {
     }
     i++;
 }
-console.log("Sorted array of 0s and 1s:", arr); // Output: Sorted array of 0s and 1s: [0, 0, 0, 0, 1, 1, 1, 1]
+console.log("Sorted array of 0s and 1s:", arr); // Output: Sorted array of 0s and 1s: [0, 0, 0, 0, 1, 1, 1, 1] 
