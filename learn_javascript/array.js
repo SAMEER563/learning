@@ -106,3 +106,17 @@ while (i < arr.length) {
 }
 console.log("Sorted array of 0s and 1s:", arr); // Output: Sorted array of 0s and 1s: [0, 0, 0, 0, 1, 1, 1, 1] 
 
+// Given an array of integers, return a reversed version of the array (without using the built-in reverse() method).
+
+function reverseArray(arr) {
+  let result = [];
+
+  for (let i = arr.length - 1; i >= 0; i--) {
+    result.push(arr[i]);
+  }
+
+  return result;
+}
+
+console.log(reverseArray([1, 2, 3, 4]));
+// Output: [4, 3, 2, 1]
