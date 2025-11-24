@@ -72,3 +72,11 @@ const countVowelsArrow = str => {
     return count;
 }
 console.log(countVowelsArrow("Hello World")); // Output: 3
+
+
+// Create a function for reversing a string.
+
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+console.log(reverseString("Hello")); // Output: "olleH"
