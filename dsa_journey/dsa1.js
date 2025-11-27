@@ -1,4 +1,4 @@
-// Remove duplicates from a sorted array
+// Remove duplicates from a sorted array - LeetCode 26
 
     var removeDuplicates = function(nums) {
         let j = 1;
