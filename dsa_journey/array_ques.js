@@ -48,6 +48,9 @@
     }
     console.log(arr)  // Output: [4, 5, 1, 2, 3]
 
+// Time Complexity: O(n*k)
+// Space Complexity: O(1)
+
 
 
 
