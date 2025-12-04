@@ -44,4 +44,3 @@ if (amount >=2) {
 if (amount === 1) {
     console.log("Notes of 1:" + (amount));
 }
-
