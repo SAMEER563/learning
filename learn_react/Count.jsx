@@ -1,18 +1,19 @@
-import React, { useState } from 'react'
+"use client"
 
-const Count = () => {
+import { useState } from "react"
 
-    const [count, setCount] = useState(0);
+export default function Counter () {
 
-  return (
-    <div>
-      <h1>Counter App</h1>
-        <h2>{count}</h2>
-        <button onClick={() => setCount(count + 1)}>Increment</button>
-        <button onClick={() => setCount(count - 1)}>Decrement</button>
-        <button onClick={() => setCount(0)}>Reset</button>
-    </div>
-  )
+    const [count,setCount] = useState(0)
+    return (
+       <>
+        <h1 className="text-4xl text-blue-500 font-bold pt-6 text-center">Counter App</h1>
+        <h1 className="text-3xl text-green-500 font-medium pt-4 text-center">Value {count}</h1>
+        <div className="flex gap-2 justify-center pt-4">
+            <button className="border-2 border-black p-2 rounded-md cursor-pointer hover:bg-amber-500" onClick={()=> setCount(count+1)}>Increase</button>
+            <button className="border-2 border-black p-2 rounded-md cursor-pointer hover:bg-amber-500" onClick={()=> setCount(count-1)}>Decrease</button>
+            <button className="border-2 border-black p-2 rounded-md cursor-pointer hover:bg-amber-500" onClick={()=> setCount(0)}>Reset</button>
+        </div>
+       </>
+    )
 }
-
-export default Count
