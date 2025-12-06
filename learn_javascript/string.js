@@ -20,3 +20,14 @@ console.log(str1.slice(0, 4));
 let str2 = "Hello world";
 console.log(str2.includes("world"));
 // Output: true
+
+// What is the output of the following code?
+
+let s = "banana";
+console.log(s.indexOf("na"));
+// Output: 2
+
+// What does this return and why?
+"hello" === new String("hello")
+// Output: false, because new String() creates a String object, not a primitive string.
+
