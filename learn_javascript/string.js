@@ -31,3 +31,13 @@ console.log(s.indexOf("na"));
 "hello" === new String("hello")
 // Output: false, because new String() creates a String object, not a primitive string.
 
+// What will be the output of the following code?
+let text = "a-b-c-d";
+console.log(text.split("-").reverse().join(""));
+// Output: dcba
+
+// How can you remove whitespace from both ends of a string?
+let str3 = "   Hello World!   ";
+console.log(str3.trim());
+// Output: "Hello World!"
+
