@@ -40,4 +40,3 @@ console.log(text.split("-").reverse().join(""));
 let str3 = "   Hello World!   ";
 console.log(str3.trim());
 // Output: "Hello World!"
-
