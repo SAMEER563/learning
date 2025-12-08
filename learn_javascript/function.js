@@ -80,3 +80,8 @@ function reverseString(str) {
     return str.split('').reverse().join('');
 }
 console.log(reverseString("Hello")); // Output: "olleH"
+
+
+// Create an arrow function for same question.
+const reverseStringArrow = str => str.split('').reverse().join('');
+console.log(reverseStringArrow("Hello")); // Output: "olleH"
