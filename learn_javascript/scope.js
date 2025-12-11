@@ -17,3 +17,8 @@ console.log(a);
 console.log(b); 
 console.log(c); 
 
+
+// Create a function using function keyword that takes two parameters and returns their sum.
+function sum(x, y) {
+    return x + y;
+}
