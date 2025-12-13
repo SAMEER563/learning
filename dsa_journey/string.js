@@ -33,3 +33,34 @@ if(str3 === revStr3) {
 } else {
     console.log(`${str3} is not a palindrome`);
 }
+
+// Check if a string is palindrome or not by second method
+
+let str4 = "JAVASCRIPT";
+let revStr4 = "";
+revStr4 = str4.split("").reverse().join("");
+if(str4 === revStr4) {
+    console.log(`${str4} is a palindrome`);
+} else {
+    console.log(`${str4} is not a palindrome`);
+}
+
+// Check if a string is palindrome or not by third method
+
+let str5 = "LEVEL";
+let isPalindrome = true;
+let i=0; j= str5.length - 1;
+while(i < j) {
+    if(str5.charAt(i) !== str5.charAt(j)) {
+        isPalindrome = false;
+        break;
+    }
+    i++;
+    j--;
+
+}
+if(isPalindrome) {
+    console.log(`${str5} is a palindrome`);
+} else {
+    console.log(`${str5} is not a palindrome`);
+}
