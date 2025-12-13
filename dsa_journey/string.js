@@ -20,3 +20,16 @@ console.log(rev);
 
 let str2 = "JAVASCRIPT";
 console.log(str2.split("").reverse().join(""))
+
+// Check if a string is palindrome or not by first method
+
+let str3 = "MADAM";
+let revStr3 = "";
+for(let i = str3.length - 1; i >= 0; i--) {
+    revStr3 = revStr3 + str3.charAt(i);
+}
+if(str3 === revStr3) {
+    console.log(`${str3} is a palindrome`);
+} else {
+    console.log(`${str3} is not a palindrome`);
+}
