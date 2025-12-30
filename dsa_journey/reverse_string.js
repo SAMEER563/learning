@@ -16,7 +16,7 @@ for (let i=0; i<arr.length; i++) {
   
 console.log(sum)
 
-
+// Check for Palindrome
 function isPalindrome(str) {
     let left = 0, right = str.length-1;
     while(left < right ) {
@@ -31,7 +31,7 @@ function isPalindrome(str) {
 
 console.log(isPalindrome("mdjs"))
 
-
+// Remove Duplicates from Array
 function removeDuplicates(arr){
     return [...new Set(arr)];
 }
