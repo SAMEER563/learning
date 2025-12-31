@@ -64,3 +64,11 @@ if(isPalindrome) {
 } else {
     console.log(`${str5} is not a palindrome`);
 }
+
+// Count number of characters in a string
+let str6 = "HELLO WORLD";
+let count = 0;
+for(let i = 0; i < str6.length; i++) {
+    count++;
+}
+console.log(`Number of characters in "${str6}" is ${count}`);
