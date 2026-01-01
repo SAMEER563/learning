@@ -11,3 +11,8 @@ var removeDuplicates = function(nums) {
 // Complexity Analysis:
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+
+// Example usage:
+const nums = [1,1,2,2,3,4,4,5];
+const length = removeDuplicates(nums);
+console.log(length); // Output: 5
