@@ -12,4 +12,15 @@ var maxSubArray = function(nums) {
 };  
 
 
+// Second Method
+
+function maxSubArray2(arr) {
+    let currentElement = arr[0];
+    let maxElement = arr[0];
+    for(let i = 1; i < arr.length; i++) {
+        currentElement = Math.max(arr[i], currentElement + arr[i]);
+        maxElement = Math.max(maxElement, currentElement);
+    }
+    return maxElement;
+}
 
