@@ -17,3 +17,6 @@ for (let i = 0; i < s.length; i++) {
         printed[indx] = true;
     }
 }
+
+// Print in ASCII order
+console.log("Frequencies in ASCII order:");
