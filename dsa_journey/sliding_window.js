@@ -31,3 +31,4 @@ function lengthOfLongestSubstringMap(s) {
     }
     return maxLength;
 }
+
