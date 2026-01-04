@@ -13,3 +13,4 @@ for(i=0; i<=s.length-1; i++){
     }
 }
 console.log("Toggled string is: " + toggle);
+
