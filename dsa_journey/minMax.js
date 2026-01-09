@@ -14,3 +14,6 @@ function minMax(arr){
     }
     return [min, max];
 }
+
+console.log(minMax([3,5,1,8,2])); // [1, 8]
+console.log(minMax([-10,0,5,3,-2])); // [-10, 5]
