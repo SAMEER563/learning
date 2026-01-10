@@ -17,3 +17,4 @@ function findSecondLargest(arr) {
 }
 
 console.log(findSecondLargest([3, 5, 2, 9, 7])); // 7
+console.log(findSecondLargest([10, 20, 20, 30, 40])); // 30
