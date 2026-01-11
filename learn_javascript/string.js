@@ -40,3 +40,8 @@ console.log(text.split("-").reverse().join(""));
 let str3 = "   Hello World!   ";
 console.log(str3.trim());
 // Output: "Hello World!"
+
+// What will be the output of the following code?
+let str4 = "fooBAR";
+console.log(str4.replace("BAR", "baz"));
+// Output: "foobaz" 
