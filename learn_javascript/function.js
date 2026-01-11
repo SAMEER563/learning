@@ -85,3 +85,13 @@ console.log(reverseString("Hello")); // Output: "olleH"
 // Create an arrow function for same question.
 const reverseStringArrow = str => str.split('').reverse().join('');
 console.log(reverseStringArrow("Hello")); // Output: "olleH"
+
+// Create a function to check if a number is prime.
+
+function isPrime(num) {
+    if (num <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) return false;
+    }
+    return true;
+}
