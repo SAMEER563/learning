@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui 
 import time
 import random
 import sys
@@ -19,6 +19,15 @@ beautiful_messages = [
     "Your friendship is a treasure — hope your birthday is just as precious! 💎🎉"
 ]
 
+# --- Fun variations of the main birthday line ---
+birthday_lines = [
+    "🎂 Happy Birthday Deepak! 🎈",
+    "🎉 HBD Deepak! Time to party! 🥳",
+    "🎊 Deepak's Birthday Bash is ON! 🎂💖",
+    "🥳 Wishing the legendary Deepak a fantastic Birthday! 🎁",
+    "🎂🎉 Another year of awesomeness for Deepak! 🌟"
+]
+
 # --- Animated Loading Function ---
 def loading_animation():
     print("Initializing Birthday Bomb for Deepak 🚀", end="")
@@ -30,9 +39,9 @@ def loading_animation():
 
 # --- Clipboard Send Function for emojis ---
 def send_message(message):
-    pyperclip.copy(message)      # Copy message to clipboard
-    pyautogui.hotkey("ctrl", "v")  # Paste in WhatsApp
-    pyautogui.press("enter")     # Send
+    pyperclip.copy(message)          # Copy message to clipboard
+    pyautogui.hotkey("ctrl", "v")    # Paste in WhatsApp
+    pyautogui.press("enter")         # Send
 
 # --- Instructions ---
 print("🚀 Open WhatsApp and select Deepak's chat now...")
@@ -45,9 +54,10 @@ for i in range(6):
     gift_today = random.choice(gifts)
     joke_today = random.choice(jokes)
     beautiful_today = random.choice(beautiful_messages)
+    birthday_line = random.choice(birthday_lines)  # Random birthday line each time
     
     message = f"""
-🎂 Happy Birthday Deepak! 🎈
+{birthday_line}
 {joke_today}
 {beautiful_today}
 Today's gift: {gift_today} 🎁
