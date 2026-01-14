@@ -10,4 +10,9 @@
         }
         return j;
     }
+
+    // Example usage:
+    const nums = [1, 1, 2];
+    const k = removeDuplicates(nums);
+    console.log(k); // Output: 2
     
