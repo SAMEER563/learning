@@ -214,3 +214,11 @@ let a = 10;
   let a = 20;
   console.log(a); // Output: 20
 })();
+
+// What will be the output of the following code?
+
+for (var i = 0; i < 3; i++) {
+  setTimeout(function() {
+    console.log(i);
+  }, 1000);
+}
