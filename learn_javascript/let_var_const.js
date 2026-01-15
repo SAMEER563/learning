@@ -207,3 +207,10 @@ var a = 10;
 })(); 
 
 
+// What will be the output of the following code?
+let a = 10;
+(function() {
+  console.log(a); // Output: ReferenceError: Cannot access 'a' before initialization
+  let a = 20;
+  console.log(a); // Output: 20
+})();
