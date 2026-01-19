@@ -12,3 +12,7 @@ function reverseString(s) {
     }
     return s;
 }
+
+// Example usage:
+let charArray = ['h', 'e', 'l', 'l', 'o'];
+console.log(reverseString(charArray)); // Output: ['o', 'l', 'l', 'e', 'h']
