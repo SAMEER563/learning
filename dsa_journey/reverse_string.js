@@ -1,4 +1,4 @@
-
+// Reverses an array of characters in place
 function reverseString(s) {
     let left = 0;
     let right = s.length - 1;
