@@ -12,6 +12,7 @@ var maxSubArray = function(nums) {
 };  
 
 
+
 // Second Method
 
 function maxSubArray2(arr) {
