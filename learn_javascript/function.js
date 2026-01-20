@@ -6,6 +6,9 @@ function sum() {
 sum(); // Output: Hi there!
 
 
+function greet() {
+    return "Hello, World!";
+}
 
 
 // function with parameters
