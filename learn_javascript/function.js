@@ -5,7 +5,7 @@ function sum() {
 }
 sum(); // Output: Hi there!
 
-
+/// function with return value
 function greet() {
     return "Hello, World!";
 }
