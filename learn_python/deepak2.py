@@ -103,7 +103,6 @@ finale = """
 May this year surprise you,
 strengthen you,
 and reward you in unexpected ways.
-
 Keep smiling.
 Keep moving forward.
 The best chapters are still coming. 🚀✨
