@@ -110,4 +110,3 @@ The best chapters are still coming. 🚀✨
 send(finale)
 
 print("✅ Birthday Countdown Show completed successfully 🎊")
-
