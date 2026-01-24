@@ -121,4 +121,7 @@ function reverseArray(arr) {
 console.log(reverseArray([1, 2, 3, 4]));
 // Output: [4, 3, 2, 1]
 
-// 
+// example usage
+let originalArray = [10, 20, 30, 40, 50];
+let reversedArray = reverseArray(originalArray);
+console.log(reversedArray); // Output: [50, 40, 30, 20, 10]
