@@ -16,3 +16,19 @@ var removeDuplicates = function(nums) {
 const nums = [1,1,2,2,3,4,4,5];
 const length = removeDuplicates(nums);
 console.log(length); // Output: 5
+
+
+// return duplocates from array
+// [1,2,3,4,4,5] => [4]
+var findDuplicates = function(nums) {
+    let result = [];
+    let numSet = new Set();
+
+    for (let num of nums) {
+        if (numSet.has(num)) {
+            result.push(num);
+        }
+        numSet.add(num);
+    }               
+    return result;
+};
