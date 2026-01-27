@@ -1,8 +1,8 @@
-let user = {
-    name: "Ramu",
-    age: 30,
-    email: "ramu@example.com",
-}
+// let user = {
+//     name: "Ramu",
+//     age: 30,
+//     email: "ramu@example.com",
+// }
 
 // Accessing object properties
 
@@ -29,5 +29,18 @@ console.log(user.email);  // Output: undefined
 // Displaying the keys and values of the object
 console.log(Object.keys(user));  // Output: [ 'name', 'age', 'address', 'phone number' ]
 console.log(Object.values(user));  // Output: [ 'Ramu', 31, '123 Main St', '123-456-7890' ]
+console.log(Object.entries(user)); // Output: [ [ 'name', 'Ramu' ], [ 'age', 31 ], [ 'address', '123 Main St' ], [ 'phone number', '123-456-7890' ] ]
 
 console.log(user)
+
+
+let user = {
+    name: "Ramu",
+    age: 30,
+    email: "ramu@example.com",
+}
+
+// use for...in loop to iterate over object properties
+for (let key in user) {
+    console.log(key + ": " + user[key]);
+}
