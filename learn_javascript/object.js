@@ -44,3 +44,7 @@ let user = {
 for (let key in user) {
     console.log(key + ": " + user[key]);
 }
+// Output:
+// name: Ramu
+// age: 30
+// email:
