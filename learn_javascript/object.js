@@ -13,3 +13,8 @@ console.log(typeof user);  // Output: object
 // Modifying object properties
 user.age = 31;
 console.log(user.age);  // Output: 31
+
+
+// Adding new properties
+user.address = "123 Main St";
+console.log(user.address);  // Output: 123 Main St
