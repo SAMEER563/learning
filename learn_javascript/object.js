@@ -18,3 +18,7 @@ console.log(user.age);  // Output: 31
 // Adding new properties
 user.address = "123 Main St";
 console.log(user.address);  // Output: 123 Main St
+
+// Deleting properties
+delete user.email;
+console.log(user.email);  // Output: undefined
