@@ -48,3 +48,7 @@ for (let key in user) {
 // name: Ramu
 // age: 30
 // email:
+
+// using destructuring to extract properties
+let { name, age } = user;
+console.log(name, age);  // Output: Ramu 30
