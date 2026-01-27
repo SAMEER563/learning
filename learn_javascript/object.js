@@ -26,4 +26,8 @@ user["phone number"] = "123-456-7890";  // Property name with space is given in 
 delete user.email;
 console.log(user.email);  // Output: undefined
 
+// Displaying the keys and values of the object
+console.log(Object.keys(user));  // Output: [ 'name', 'age', 'address', 'phone number' ]
+console.log(Object.values(user));  // Output: [ 'Ramu', 31, '123 Main St', '123-456-7890' ]
+
 console.log(user)
