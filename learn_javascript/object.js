@@ -5,8 +5,9 @@ let user = {
 }
 
 // Accessing object properties
+
 console.log(user.name);  // Output: Ramu
-console.log(user["age"]);  // Output: 30
+console.log(user["age"]);  // Output: 30  --- Need to give value as string
 console.log(user.age);  // Output: 30
 console.log(typeof user);  // Output: object
 
@@ -19,6 +20,10 @@ console.log(user.age);  // Output: 31
 user.address = "123 Main St";
 console.log(user.address);  // Output: 123 Main St
 
+user["phone number"] = "123-456-7890";  // Property name with space is given in quotes
+
 // Deleting properties
 delete user.email;
 console.log(user.email);  // Output: undefined
+
+console.log(user)
