@@ -57,3 +57,8 @@ let user = {
 }
 
 console.log(user.address.city);  // Output: Mumbai
+
+// use of spread operator with objects
+
+let userCopy = {...user};
+console.log(userCopy);
