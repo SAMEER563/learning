@@ -60,5 +60,8 @@ console.log(user.address.city);  // Output: Mumbai
 
 // use of spread operator with objects
 
+// shallow copy of object
 let userCopy = {...user};
+userCopy.name = "Shyam";  // modifying the copy
 console.log(userCopy);
+
