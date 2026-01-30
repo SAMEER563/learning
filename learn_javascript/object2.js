@@ -65,3 +65,18 @@ let userCopy = {...user};
 userCopy.name = "Shyam";  // modifying the copy
 console.log(userCopy);
 
+// deep copy of object
+let userDeepCopy = {
+    ...user,
+    address: {...user.address}
+};
+userDeepCopy.address.city = "Delhi";
+
+console.log(userDeepCopy);
+
+// or 
+
+let userDeepCopy2 = structuredClone(user);
+userDeepCopy2.address.city = "Delhi";
+
+console.log(userDeepCopy2);
