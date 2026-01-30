@@ -51,6 +51,12 @@ for (let key of tempUser) {
     console.log(key);
 }
 
+// user for...of loop with Object.values()
+let tempUserValues = Object.values(user);
+for (let value of tempUserValues) {
+    console.log(value);
+}
+
 // using destructuring to extract properties
 let { name, age } = user;
 console.log(name, age);  // Output: Ramu 30
