@@ -6,32 +6,32 @@
 
 // Accessing object properties
 
-console.log(user.name);  // Output: Ramu
-console.log(user["age"]);  // Output: 30  --- Need to give value as string
-console.log(user.age);  // Output: 30
-console.log(typeof user);  // Output: object
+// console.log(user.name);  // Output: Ramu
+// console.log(user["age"]);  // Output: 30  --- Need to give value as string
+// console.log(user.age);  // Output: 30
+// console.log(typeof user);  // Output: object
 
-// Modifying object properties
-user.age = 31;
-console.log(user.age);  // Output: 31
+// // Modifying object properties
+// user.age = 31;
+// console.log(user.age);  // Output: 31
 
 
-// Adding new properties
-user.address = "123 Main St";
-console.log(user.address);  // Output: 123 Main St
+// // Adding new properties
+// user.address = "123 Main St";
+// console.log(user.address);  // Output: 123 Main St
 
-user["phone number"] = "123-456-7890";  // Property name with space is given in quotes
+// user["phone number"] = "123-456-7890";  // Property name with space is given in quotes
 
-// Deleting properties
-delete user.email;
-console.log(user.email);  // Output: undefined
+// // Deleting properties
+// delete user.email;
+// console.log(user.email);  // Output: undefined
 
-// Displaying the keys and values of the object
-console.log(Object.keys(user));  // Output: [ 'name', 'age', 'address', 'phone number' ]
-console.log(Object.values(user));  // Output: [ 'Ramu', 31, '123 Main St', '123-456-7890' ]
-console.log(Object.entries(user)); // Output: [ [ 'name', 'Ramu' ], [ 'age', 31 ], [ 'address', '123 Main St' ], [ 'phone number', '123-456-7890' ] ]
+// // Displaying the keys and values of the object
+// console.log(Object.keys(user));  // Output: [ 'name', 'age', 'address', 'phone number' ]
+// console.log(Object.values(user));  // Output: [ 'Ramu', 31, '123 Main St', '123-456-7890' ]
+// console.log(Object.entries(user)); // Output: [ [ 'name', 'Ramu' ], [ 'age', 31 ], [ 'address', '123 Main St' ], [ 'phone number', '123-456-7890' ] ]
 
-console.log(user)
+// console.log(user)
 
 
 let user = {
@@ -44,10 +44,12 @@ let user = {
 for (let key in user) {
     console.log(key + ": " + user[key]);
 }
-// Output:
-// name: Ramu
-// age: 30
-// email:
+
+// user for...of loop with Object.keys()
+let tempUser = Object.keys(user);
+for (let key of tempUser) {
+    console.log(key);
+}
 
 // using destructuring to extract properties
 let { name, age } = user;
