@@ -44,39 +44,39 @@
 
 
 
-// nested objects
-let user = {
-    name: "Ramu",
-    age: 30,
-    email: "ramu@example.com",
-    address: {
-        street: "123 Main St",
-        city: "Mumbai",
-        country: "India"
-    }
-}
+// // nested objects
+// let user = {
+//     name: "Ramu",
+//     age: 30,
+//     email: "ramu@example.com",
+//     address: {
+//         street: "123 Main St",
+//         city: "Mumbai",
+//         country: "India"
+//     }
+// }
 
-console.log(user.address.city);  // Output: Mumbai
+// console.log(user.address.city);  // Output: Mumbai
 
-// use of spread operator with objects
+// // use of spread operator with objects
 
-// shallow copy of object
-let userCopy = {...user};
-userCopy.name = "Shyam";  // modifying the copy
-console.log(userCopy);
+// // shallow copy of object
+// let userCopy = {...user};
+// userCopy.name = "Shyam";  // modifying the copy
+// console.log(userCopy);
 
-// deep copy of object
-let userDeepCopy = {
-    ...user,
-    address: {...user.address}
-};
-userDeepCopy.address.city = "Delhi";
+// // deep copy of object
+// let userDeepCopy = {
+//     ...user,
+//     address: {...user.address}
+// };
+// userDeepCopy.address.city = "Delhi";
 
-console.log(userDeepCopy);
+// console.log(userDeepCopy);
 
-// or 
+// // or 
 
-let userDeepCopy2 = structuredClone(user);
-userDeepCopy2.address.city = "Delhi";
+// let userDeepCopy2 = structuredClone(user);
+// userDeepCopy2.address.city = "Delhi";
 
-console.log(userDeepCopy2);
+// console.log(userDeepCopy2);
