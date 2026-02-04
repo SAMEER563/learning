@@ -25,3 +25,7 @@ console.log(str.indexOf('bad'))
 
 // Find last substring 
 console.log(str.lastIndexOf('bad'))
+
+// Slice method 
+console.log(str.slice(0,8))
+console.log(str.slice(-4, -1))
