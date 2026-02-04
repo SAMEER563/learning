@@ -47,3 +47,8 @@
  console.log(user.trim());
  console.log(user.trimEnd());  // It remove last spaces
  console.log(user.trimStart());  // It removes first spaces
+
+ // Use of split - Split is basically use to seperate the given value and give in array form 
+
+ let names = "Ramesh, Shyam, Rohan, Jay"
+ console.log(names.split(","))
