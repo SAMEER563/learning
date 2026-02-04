@@ -9,3 +9,7 @@ let str2 = `Looking good`
 let str4 = 10
 let str5 = `You will get ${str4} in each subject`
 console.log(str5)
+
+// Change string into capital letter
+
+console.log(str.toUpperCase())
