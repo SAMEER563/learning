@@ -17,6 +17,11 @@ console.log(date.getFullYear())
 console.log(date.getHours())
 console.log(date.getMinutes())
 
+// Get date and time in millisecond 
+
+let now =  Date.now();
+console.log(now)
+
 
 
 
