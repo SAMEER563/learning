@@ -13,3 +13,7 @@ console.log(str5)
 // Change string into capital letter
 
 console.log(str.toUpperCase())
+
+// Change string into lower case 
+
+console.log(str1.toLowerCase())
