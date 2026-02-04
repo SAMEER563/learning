@@ -20,5 +20,8 @@
 
 // Find the substring 
 
-let str = `Rahul is bad Boy`
+let str = `Rahul is bad Boy and bad friend`
 console.log(str.indexOf('bad'))
+
+// Find last substring 
+console.log(str.lastIndexOf('bad'))
