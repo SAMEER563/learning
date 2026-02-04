@@ -36,4 +36,7 @@
 // Uses of replace method 
 
 let  str = "Ramesh looks handsome"
-console.log(str.replace('Ram', 'Mah'))
+console.log(str.replace('Ram', 'Mah'))  // It replace only first sentence
+
+// Uses of replaceAll
+console.log(str.replaceAll('o', 'i'))  // It replace all character which i want to replace
