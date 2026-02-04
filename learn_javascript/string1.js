@@ -20,15 +20,20 @@
 
 // Find the substring index
 
-let str = `Rahul is bad Boy and bad friend`
-console.log(str.indexOf('bad'))
+// let str = `Rahul is bad Boy and bad friend`
+// console.log(str.indexOf('bad'))
 
-// Find last substring index
-console.log(str.lastIndexOf('bad'))
+// // Find last substring index
+// console.log(str.lastIndexOf('bad'))
 
-// Slice method 
-console.log(str.slice(0,8))
-console.log(str.slice(-4, -1))
+// // Slice method 
+// console.log(str.slice(0,8))
+// console.log(str.slice(-4, -1))
 
-// Find substring 
-console.log(str.substring(0,4))  //Same as slice method but in this we dont use negative value
+// // Find substring 
+// console.log(str.substring(0,4))  //Same as slice method but in this we dont use negative value
+
+// Uses of replace method 
+
+let  str = "Ramesh looks handsome"
+console.log(str.replace('Ram', 'Mah'))
