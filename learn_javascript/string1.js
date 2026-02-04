@@ -18,14 +18,17 @@
 
 // console.log(str1.toLowerCase())
 
-// Find the substring 
+// Find the substring index
 
 let str = `Rahul is bad Boy and bad friend`
 console.log(str.indexOf('bad'))
 
-// Find last substring 
+// Find last substring index
 console.log(str.lastIndexOf('bad'))
 
 // Slice method 
 console.log(str.slice(0,8))
 console.log(str.slice(-4, -1))
+
+// Find substring 
+console.log(str.substring(0,4))  //Same as slice method but in this we dont use negative value
