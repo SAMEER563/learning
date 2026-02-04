@@ -35,8 +35,15 @@
 
 // Uses of replace method 
 
-let  str = "Ramesh looks handsome"
-console.log(str.replace('Ram', 'Mah'))  // It replace only first sentence
+// let  str = "Ramesh looks handsome"
+// console.log(str.replace('Ram', 'Mah'))  // It replace only first sentence
 
-// Uses of replaceAll
-console.log(str.replaceAll('o', 'i'))  // It replace all character which i want to replace
+// // Uses of replaceAll
+// console.log(str.replaceAll('o', 'i'))  // It replace all character which i want to replace
+
+
+// Use of trim - Trim is use to remove whitespace from starting and ending of string 
+ let user = "  Hari  "
+ console.log(user.trim());
+ console.log(user.trimEnd());  // It remove last spaces
+ console.log(user.trimStart());  // It removes first spaces
