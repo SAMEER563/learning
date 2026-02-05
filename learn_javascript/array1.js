@@ -46,9 +46,14 @@
 // arr = [10,75,33,]
 // console.log(arr)
 
-// Uses of slice - It give the value which I required by using index but it does not make changes in original array
+// Uses of slice - It give the value which I required by using index but it does not make changes into original array
+
+// let arr = [10,52,45,75,56];
+// console.log(arr.slice(1,3))
+// console.log(arr)
+
+// Uses of splice - It give the value which I required by using index but it make changes into original array
 
 let arr = [10,52,45,75,56];
-console.log(arr.slice(1,3))
+console.log(arr.splice(1,3))
 console.log(arr)
-
