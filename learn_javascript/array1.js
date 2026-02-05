@@ -41,7 +41,14 @@
 // console.log(arr)
 
 // We can overwrite the array by using var and let 
-let arr = [10,52,45,75,56];
+// let arr = [10,52,45,75,56];
 
-arr = [10,75,33,]
+// arr = [10,75,33,]
+// console.log(arr)
+
+// Uses of slice - It give the value which I required by using index but it does not make changes in original array
+
+let arr = [10,52,45,75,56];
+console.log(arr.slice(1,3))
 console.log(arr)
+
