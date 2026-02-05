@@ -71,3 +71,7 @@
 
 let names = ["Ram", "Aman", "Sam"];
 console.log(names.toString())
+
+// uses of join - Join is use to convert array into string but we can decide by which want to join 
+
+console.log(names.join("-"))
