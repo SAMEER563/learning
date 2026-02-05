@@ -21,7 +21,7 @@
 
 // Use iteration to print one by one 
 
-let arr1 = [10,52,45,75,56]
+// let arr1 = [10,52,45,75,56]
 
 // for(i=0; i<arr1.length; i++){
 //     console.log(arr1[i])
@@ -29,6 +29,13 @@ let arr1 = [10,52,45,75,56]
 
 // Use for of loop
 
-for(let nums of arr1){
-    console.log(nums)
-}
+// for(let nums of arr1){
+//     console.log(nums)
+// }
+
+
+// We cannot overwrite the array by using const
+const arr = [10,52,45,75,56];
+
+arr = [10,75,33,]
+console.log(arr)
