@@ -76,5 +76,6 @@ console.log(names.toString())
 
 console.log(names.join("-"))
 
-// Uses of sort - It is use to sort element in ascending order 
-console.log(names.sort())
+// Uses of sort - It is use to sort element in ascending order by ASSCAI Value based 
+let arr = ["Ram", "Aman", "Sam", 10 ,true];
+console.log(arr.sort())
