@@ -75,3 +75,6 @@ console.log(names.toString())
 // uses of join - Join is use to convert array into string but we can decide by which want to join 
 
 console.log(names.join("-"))
+
+// Uses of sort - It is use to sort element in ascending order 
+console.log(names.sort())
