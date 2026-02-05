@@ -60,8 +60,14 @@
 
 // Join two array using spread operator
 
-let arr = [10,52,45,75,56];
-let arr1 = ["Ram", 85, true];
+// let arr = [10,52,45,75,56];
+// let arr1 = ["Ram", 85, true];
 
-let arr3 = [...arr , ...arr1]
-console.log(arr3)
+// let arr3 = [...arr , ...arr1]
+// console.log(arr3)
+
+
+// Convert array into string 
+
+let names = ["Ram", "Aman", "Sam"];
+console.log(names.toString())
