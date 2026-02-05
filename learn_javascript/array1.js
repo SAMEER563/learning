@@ -69,13 +69,19 @@
 
 // Convert array into string 
 
-let names = ["Ram", "Aman", "Sam"];
-console.log(names.toString())
+// let names = ["Ram", "Aman", "Sam"];
+// console.log(names.toString())
 
-// uses of join - Join is use to convert array into string but we can decide by which want to join 
+// // uses of join - Join is use to convert array into string but we can decide by which want to join 
 
-console.log(names.join("-"))
+// console.log(names.join("-"))
 
-// Uses of sort - It is use to sort element in ascending order by ASSCAI Value based 
-let arr = ["Ram", "Aman", "Sam", 10 ,true];
-console.log(arr.sort())
+// // Uses of sort - It is use to sort element in ascending order by ASSCAI Value based 
+// let arr = ["Ram", "Aman", "Sam", 10 ,true];
+// console.log(arr.sort())
+
+
+// Uses of flat - It is basically use to make a single array of nested array 
+
+let arr = ["Ram", "Aman", [10,52,45,75,[true, 4.5],56], "Sam"]
+console.log(arr.flat(Infinity))  // we use infinity when i dont know how many lebel present in array to flat
