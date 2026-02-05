@@ -7,6 +7,10 @@ console.log(arr)
 arr.push("Shalu");
 console.log(arr);
 
-//Pop operation - Remove last element from the array
+// Pop operation - Remove last element from the array
 arr.pop();
+console.log(arr)
+
+// Unshift method - Use to add new element at starting 
+arr.unshift("sam")
 console.log(arr)
