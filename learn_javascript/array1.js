@@ -14,3 +14,7 @@ console.log(arr)
 // Unshift method - Use to add new element at starting 
 arr.unshift("sam")
 console.log(arr)
+
+// Shift method - Use to remove first element 
+arr.shift();
+console.log(arr)
