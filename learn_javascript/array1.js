@@ -35,7 +35,13 @@
 
 
 // We cannot overwrite the array by using const
-const arr = [10,52,45,75,56];
+// const arr = [10,52,45,75,56];
+
+// arr = [10,75,33,]
+// console.log(arr)
+
+// We can overwrite the array by using var and let 
+let arr = [10,52,45,75,56];
 
 arr = [10,75,33,]
 console.log(arr)
