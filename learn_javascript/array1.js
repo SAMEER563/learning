@@ -23,6 +23,12 @@
 
 let arr1 = [10,52,45,75,56]
 
-for(i=0; i<arr1.length; i++){
-    console.log(arr1[i])
+// for(i=0; i<arr1.length; i++){
+//     console.log(arr1[i])
+// }
+
+// Use for of loop
+
+for(let nums of arr1){
+    console.log(nums)
 }
