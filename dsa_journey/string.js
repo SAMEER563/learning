@@ -72,3 +72,5 @@ for(let i = 0; i < str6.length; i++) {
     count++;
 }
 console.log(`Number of characters in "${str6}" is ${count}`);
+
+
