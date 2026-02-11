@@ -62,4 +62,3 @@ switch(fruit) {
     break;
     default : console.log("Eat fruits daily to stay healthy");
 }
-
