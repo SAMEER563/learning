@@ -35,7 +35,6 @@
 
 // addNum();
 
-
 // Third way to create function - Arrow function ()=>{}
 
     var addNum = ()=> {
