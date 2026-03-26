@@ -57,6 +57,7 @@ for (let value of tempUserValues) {
     console.log(value);
 }
 
+
 // using destructuring to extract properties
 let { name, age } = user;
 console.log(name, age);  // Output: Ramu 30
