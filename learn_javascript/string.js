@@ -16,6 +16,7 @@ console.log(str1.slice(0, 4));
 // Output: "Java"
 
 
+
 // How can you check if a string contains a specific substring (e.g., "world" in "Hello world")?
 let str2 = "Hello world";
 console.log(str2.includes("world"));
